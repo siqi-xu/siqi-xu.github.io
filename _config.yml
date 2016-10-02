@@ -1,13 +1,13 @@
 # for local testing
 # main text of home
-name: Benson Lin
-bio: 'A Man who concentrates on software development '
+name: Jennifer [许斯旗]
+bio: 'A girl who wanna try her best in coding '
 
 # if it's an external image, update below for true
 external-image: false
 picture: '/assets/images/profile.png'
 
-url: http://siqi-xu.github.io
+url: http://siqi-xu.github.io http://localhost:4000
 # url: http://blog.bensonlin.me
 # your url: http://zebinlin.github.io http://localhost:4000
 
@@ -19,7 +19,7 @@ highlighter: rouge
 analytics-google: 'UA-MYANALYTICS'
 
 # if you don't want comments in your posts, set to false
-disqus: zebinlin
+#disqus: zebinlin
 
 # if you don't have any of social below, comment the line
 ## facebook: myfacebook
@@ -30,9 +30,9 @@ disqus: zebinlin
 # linkedin: mylinkedin
 ## youtube: myyoutube
 ## spotify: myspotify
-github: siqi-xu
+github: https://github.com/siqi-xu
 ## medium: medium
-email: l096101803@qq.com
+email: 18826102455@163.com
 
 # do you want a larger site? change the option below
 # options: [normal, large] | default: normal
