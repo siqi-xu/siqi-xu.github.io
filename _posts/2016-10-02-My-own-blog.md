@@ -4,6 +4,7 @@ layout: post
 date: 2016-10-02
 permalink : /post/github-multiple-ssh-keys-settings
 tag:
-- Github pages, Jekyll
+- Github pages
+- Jekyll
 blog: true
 ---
