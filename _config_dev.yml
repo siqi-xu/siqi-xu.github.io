@@ -5,9 +5,9 @@ bio: 'A girl who wanna try her best in coding '
 
 # if it's an external image, update below for true
 external-image: false
-picture: '/assets/images/profile.png'
+picture: '/assets/images/profile.jpg'
 
-url: http://siqi-xu.github.io http://localhost:4000
+url: http://xusiqi.tk
 # url: http://blog.bensonlin.me
 # your url: http://zebinlin.github.io http://localhost:4000
 
