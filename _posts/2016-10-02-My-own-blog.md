@@ -48,8 +48,8 @@ During the process, it might ask you to input your username and password on GitH
 *2. New file named “CNAME” and write your domain name in it.    
 e.g. My CNAME:     
 ```text
-xusiqi.tk  
-```
+xusiqi.tk    
+```  
 *3. Register a DNSPod account and then add some A records    
 ![](img/2016-10-02-3.png)    
 *4. Modify nameserver on Freenom    
