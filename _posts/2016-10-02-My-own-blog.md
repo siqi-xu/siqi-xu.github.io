@@ -50,14 +50,15 @@ git push -u origin master
 
 During the process, it might ask you to input your username and password on GitHub.        
 
-## Bind the free domain name for your blog  
-**1. Apply on Freenom, you can free using for one year ** 
+## Bind the free domain name for your blog    
+
+**1. Apply on Freenom, you can free using for one year**   
 ![](img/2016-10-02-2.png)      
 **2. New file named “CNAME” and write your domain name in it. **      
 e.g. My CNAME: `xusiqi.tk`               
 **3. Register a DNSPod account and then add some A records**        
 ![](img/2016-10-02-3.png)        
-**4. Modify nameserver on [Freenom]（www.freenom.com) **           
+**4. Modify nameserver on**  [Freenom]（www.freenom.com)           
   We register domain name on Freenom, so the default DNS of domain name is provided by Freenom. Therefore,we need to modify the DNS on Freenom and let DNSPod provide domain name resolving.         
   The steps are: MyDomains -> Manage Domain -> Management Tools -> NameServers.                 
 **5. Write the two NS records from DNSPod to Freenom.**              
