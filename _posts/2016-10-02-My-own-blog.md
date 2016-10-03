@@ -23,18 +23,19 @@ blog: true
 
 ## install Git Client    
 GitHub is server, so we need to install Git client to use git in the local file.    
-```  
-$ sudo apt-get install git-core      
-```    
+`$ sudo apt-get install git-core`     
 If you wanna upload your local file to the repository, you need to follow these:      
-**1. Set username and email. GitHub will record them on each commit**        
-```     
+**1. Set username and email. GitHub will record them on each commit**   
+
+```    
 $ git config --global user.name "your name"  
 
 $ git config --global user.email "your_email@youremail.com"     
-```           
-**2. Clone repository from or to GitHub**       
-```     
+```    
+
+**2. Clone repository from or to GitHub**    
+
+```
 git init   
 
 git add .   
@@ -46,16 +47,14 @@ git remote add origin https://the address of your repository
 git push -u origin master     
 
 ```        
+
 During the process, it might ask you to input your username and password on GitHub.        
 
 ## Bind the free domain name for your blog  
 **1. Apply on Freenom, you can free using for one year ** 
 ![](img/2016-10-02-2.png)      
 **2. New file named “CNAME” and write your domain name in it. **      
-e.g. My CNAME:        
-```     
-xusiqi.tk       
-```       
+e.g. My CNAME: `xusiqi.tk`               
 **3. Register a DNSPod account and then add some A records**        
 ![](img/2016-10-02-3.png)        
 **4. Modify nameserver on [Freenom]（www.freenom.com) **           
@@ -65,9 +64,7 @@ xusiqi.tk
  ![](img/2016-10-02-4.png)                
   
 ## Test       
-```   
-Dig domain name       
-```     
+`Dig domain name`  
 
 **Reference**   
 http://blog.bensonlin.me  
