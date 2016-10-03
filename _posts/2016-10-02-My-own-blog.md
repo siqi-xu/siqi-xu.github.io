@@ -65,7 +65,7 @@ During the process, it might ask you to input your username and password on GitH
 
 ![](img/2016-10-02-2.png)      
 
-**2. New file named “CNAME” and write your domain name in it. **    
+**2. New file named “CNAME” and write your domain name in it.**    
 
 e.g. My CNAME: `xusiqi.tk`              
 
