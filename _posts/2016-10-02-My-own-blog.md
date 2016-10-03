@@ -89,11 +89,11 @@ e.g. My CNAME: `xusiqi.tk`
 ## Test       
 `Dig domain name`  
 
-##Reference  
-http://blog.bensonlin.me  
-http://www.jianshu.com/p/882f155897f0#  
-https://segmentfault.com/a/1190000004587329  
-http://www.jianshu.com/p/08656eb84974  
-http://itcoding.tk/2016/06/26/set-up-custom-domain-for-github-pages/  
-https://support.dnspod.cn/Kb/showarticle/tsid/177/#ChangeDomainNS  
+## Reference  
+[http://blog.bensonlin.me](http://blog.bensonlin.me)  
+[http://www.jianshu.com/p/882f155897f0#](http://www.jianshu.com/p/882f155897f0#) 
+[https://segmentfault.com/a/1190000004587329](https://segmentfault.com/a/1190000004587329) 
+[http://www.jianshu.com/p/08656eb84974](http://www.jianshu.com/p/08656eb84974)  
+[http://itcoding.tk/2016/06/26/set-up-custom-domain-for-github-pages/](http://itcoding.tk/2016/06/26/set-up-custom-domain-for-github-pages/)  
+[https://support.dnspod.cn/Kb/showarticle/tsid/177/#ChangeDomainNS](https://support.dnspod.cn/Kb/showarticle/tsid/177/#ChangeDomainNS)  
 
