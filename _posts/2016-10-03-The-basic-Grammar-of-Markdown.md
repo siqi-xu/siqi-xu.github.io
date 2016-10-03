@@ -2,7 +2,7 @@
 title: "The basic Grammar of Markdown"
 layout: post
 date: 2016-10-03
-permalink : /post/github-multiple-ssh-keys-settings
+permalink : /post/The-basic-Grammar-of-Markdown
 tag:
 - Markdown
 blog: true
