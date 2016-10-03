@@ -64,7 +64,7 @@ Markdown 的标记语法有极好的可读性。
 
 [简书](http://www.jianshu.com)     
 
-在 Markdown 中，插入图片不需要其他按钮，你只需要使用 ![](图片链接地址) 这样的语法即可，例如：      
+在 Markdown 中，插入图片不需要其他按钮，你只需要使用 `![](图片链接地址)` 这样的语法即可，例如：      
  
 `![](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)`             
 
