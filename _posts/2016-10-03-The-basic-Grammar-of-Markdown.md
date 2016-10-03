@@ -8,7 +8,7 @@ tag:
 blog: true
 ---
 
-本文转载自简书：献给写作者的 Markdown 新手指南 [http://www.jianshu.com/p/q81RER#]（http://www.jianshu.com/p/q81RER#）  
+本文转载自简书：献给写作者的 Markdown 新手指南 [http://www.jianshu.com/p/q81RER#](http://www.jianshu.com/p/q81RER#) 
 
 Markdown 是一种「电子邮件」风格的「标记语言」，我们强烈推荐所有写作者学习和掌握该语言。为什么？可以参考:  
 
@@ -60,11 +60,13 @@ Markdown 的标记语法有极好的可读性。
 
 在 Markdown 中，插入链接不需要其他按钮，你只需要使用 [显示文本](链接地址) 这样的语法即可，例如：  
 
-[简书](http://www.jianshu.com)   
+`[简书](http://www.jianshu.com)`   
+
+[简书](http://www.jianshu.com)     
 
 在 Markdown 中，插入图片不需要其他按钮，你只需要使用 ![](图片链接地址) 这样的语法即可，例如：      
  
-![](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)             
+`![](http://ww4.sinaimg.cn/bmiddle/aa397b7fjw1dzplsgpdw5j.jpg)`             
 
 注：插入图片的语法和链接的语法很像，只是前面多了一个 ！。                
 
