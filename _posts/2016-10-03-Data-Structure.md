@@ -2,7 +2,7 @@
 title: "Data Structure"
 layout: post
 date: 2016-10-03
-permalink : /post/github-multiple-ssh-keys-settings
+permalink : /post/Data-Structure
 tag:
 - Java
 - Data Structure
