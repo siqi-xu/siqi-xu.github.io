@@ -1,5 +1,5 @@
 ---
-title: "Set up my own blog on Github, Ubuntu Kylin 14.04*"
+title: "Set up my own blog on Github, Ubuntu Kylin 14.04"
 layout: post
 date: 2016-10-02
 permalink : /post/github-multiple-ssh-keys-settings
@@ -29,20 +29,26 @@ $ sudo apt-get install git-core
 If you wanna upload your local file to the repository, you need to follow these:      
 **1. Set username and email. GitHub will record them on each commit**        
 ```     
-$ git config --global user.name "your name"     
+$ git config --global user.name "your name"  
+
 $ git config --global user.email "your_email@youremail.com"     
 ```           
 **2. Clone repository from or to GitHub**       
 ```     
-git init      
-git add .      
-git commit –m “comment”      
-git remote add origin https://the address of your repository      
-git push -u origin master      
+git init   
+
+git add .   
+
+git commit –m “comment”    
+
+git remote add origin https://the address of your repository  
+
+git push -u origin master     
+
 ```        
 During the process, it might ask you to input your username and password on GitHub.        
 
-## Bind the free domain name for your blog
+## Bind the free domain name for your blog  
 **1. Apply on Freenom, you can free using for one year ** 
 ![](img/2016-10-02-2.png)      
 **2. New file named “CNAME” and write your domain name in it. **      
