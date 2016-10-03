@@ -73,11 +73,11 @@ e.g. My CNAME: `xusiqi.tk`
 
 ![](img/2016-10-02-3.png)        
 
-**4. Modify nameserver on [Freenom](www.freenom.com)**   
+**4. Modify nameserver on** [**Freenom**](www.freenom.com) 
 
-  We register domain name on Freenom, so the default DNS of domain name is provided by Freenom. Therefore,we need to
+  We register domain name on Freenom, so the default DNS of domain name is provided by Freenom.   
   
-  modify the DNS on Freenom and let DNSPod provide domain name resolving.    
+  Therefore,we need to modify the DNS on Freenom and let DNSPod provide domain name resolving.    
   
   The steps are: MyDomains -> Manage Domain -> Management Tools -> NameServers.   
   
