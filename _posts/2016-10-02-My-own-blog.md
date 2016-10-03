@@ -15,52 +15,52 @@ blog: true
   下面就是我今天忙活了一下午+一晚上的过程，中间遇到困难的时候感谢Hareric的帮助，虽然没有帮我解决问题，但给了我思路，幸好自己没有再次放弃，而是一步一步去探索解决问题。实现后发现过程其实不难，关键是对于自己第一次摸索的东西，不能害怕，要坚持不懈！以下过程是在Ubuntu Kylin 14.04 64位环境下实现：   
 
 ## Sign in GitHub && new repository    
-Notice:     
-*1. The name of the repository must be the form of “username.github.io”.    
-*2. Description can be omitted.    
-*3. Check the box to generate a README file.    
-![](img/2016-10-02-1.png)    
+Notice:       
+1. The name of the repository must be the form of “username.github.io”.      
+2. Description can be omitted.      
+3. Check the box to generate a README file.      
+![](img/2016-10-02-1.png)      
 
 ## install Git Client    
 GitHub is server, so we need to install Git client to use git in the local file.    
-```
-$ sudo apt-get install git-core    
 ```  
-If you wanna upload your local file to the repository, you need to follow these:    
-*1. Set username and email. GitHub will record them on each commit      
-```   
-$ git config --global user.name "your name"  
-$ git config --global user.email "your_email@youremail.com"  
+$ sudo apt-get install git-core      
 ```    
-*2. Clone repository from or to GitHub    
-```  
-git init  
-git add .  
-git commit –m “comment”  
-git remote add origin https://the address of your repository  
-git push -u origin master  
-```    
-During the process, it might ask you to input your username and password on GitHub.    
+If you wanna upload your local file to the repository, you need to follow these:      
+1. Set username and email. GitHub will record them on each commit        
+```     
+$ git config --global user.name "your name"     
+$ git config --global user.email "your_email@youremail.com"     
+```           
+2. Clone repository from or to GitHub       
+```     
+git init      
+git add .      
+git commit –m “comment”      
+git remote add origin https://the address of your repository      
+git push -u origin master      
+```        
+During the process, it might ask you to input your username and password on GitHub.        
 
-## Bind the free domain name for your blog    
-*1. Apply on Freenom, you can free using for one year    
+## Bind the free domain name for your blog
+1. Apply on Freenom, you can free using for one year         
 ![](img/2016-10-02-2.png)      
-*2. New file named “CNAME” and write your domain name in it.    
-e.g. My CNAME:     
-```  
-xusiqi.tk    
-```    
-*3. Register a DNSPod account and then add some A records    
-![](img/2016-10-02-3.png)    
-*4. Modify nameserver on Freenom    
-  We register domain name on Freenom, so the default DNS of domain name is provided by Freenom. Therefore,we need to modify the DNS on Freenom and let DNSPod provide domain name resolving.    
-  The steps are: MyDomains -> Manage Domain -> Management Tools -> NameServers.     
-  Write the two NS records from DNSPod to Freenom.    
- ![](img/2016-10-02-4.png)     
+2. New file named “CNAME” and write your domain name in it.       
+e.g. My CNAME:        
+```     
+xusiqi.tk       
+```       
+3. Register a DNSPod account and then add some A records        
+![](img/2016-10-02-3.png)        
+4. Modify nameserver on Freenom            
+  We register domain name on Freenom, so the default DNS of domain name is provided by Freenom. Therefore,we need to modify the DNS on Freenom and let DNSPod provide domain name resolving.         
+  The steps are: MyDomains -> Manage Domain -> Management Tools -> NameServers.                 
+  Write the two NS records from DNSPod to Freenom.              
+ ![](img/2016-10-02-4.png)                
   
 ## Test       
 ```   
-Dig domain name  
+Dig domain name       
 ```     
 
 Reference   
