@@ -37,9 +37,12 @@ Spark是由scala开发，目前提供java, python的接口.
 ![](img/2016-10-05-1.jpg)    
 
 ### 配置环境变量
-　　配置环境变量,编辑/etc/profile,执行以下命令     
-　　`sudo gedit /etc/profile`
-       在文件最下方增加（注意版本）：
+　　配置环境变量,编辑/etc/profile,执行以下命令    
+  
+　　`sudo gedit /etc/profile`      
+  
+   在文件最下方增加（注意版本）：     
+       
        ```  
           #Seeting JDK JDK环境变量  
           
@@ -64,7 +67,8 @@ Spark是由scala开发，目前提供java, python的接口.
           #PythonPath 将Spark中的pySpark模块增加的Python环境中        
           
             export PYTHONPATH=/opt/spark-hadoop/python         
-            ```   
+            ```             
+            
 　　保存文件， 重启电脑，使/etc/profile永久生效，临时生效，打开命令窗口，执行 `source /etc/profile`  在当前窗口生效.
 
 ### 测试  
@@ -102,9 +106,9 @@ Spark是由scala开发，目前提供java, python的接口.
 ![](img/2016-10-05-5.jpg)      
 ![](img/2016-10-05-6.jpg)    
 ![](img/2016-10-05-7.jpg)   
-![](img/2016-10-05-8.jpg)  
-![](img/2016-10-05-class.jpg)     
-![](img/2016-10-05-9.jpg)       
+![](img/2016-10-05-8.jpg)      
+![](img/2016-10-05-9.jpg) 
+![](img/2016-10-05-class.jpg)  
 ![](img/2016-10-05-10.jpg)  
 程序的入口函数是main，所以要先定义mian，同时把class修改为object    
 ![](img/2016-10-05-11.jpg)        
