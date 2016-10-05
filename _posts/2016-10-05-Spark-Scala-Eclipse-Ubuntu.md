@@ -26,54 +26,51 @@ Spark是由scala开发，目前提供java, python的接口.
 ### 下载             
 　 - 下载scala压缩包，进入链接http://www.scala-lang.org/,点击download下载scala，并解压到/opt/  
     
-   - 下载jdk压缩包，进入链接http://www.oracle.com/technetwork/java/javase/downloads/index.html，下载最新版jdk，若为64位系统请下载jdk-8u101-linux-x64.tar.gz,
-   32位系统下载jdk-8u101-linux-i586.tar.gz，下载完成后解压到opt目录下。           
+   - 下载jdk压缩包，进入链接http://www.oracle.com/technetwork/java/javase/downloads/index.html，下载最新版jdk，若为64位系统请下载jdk-8u101-linux-x64.tar.gz, 32位系统下载jdk-8u101-linux-i586.tar.gz，下载完成后解压到opt目录下。           
    
-　 - 下载spark压缩包，进入链接https://spark.apache.org/downloads.html，当前spark最新的版本是2.1.0，但目前请不要下载2.0以上的新版本！！！因为spark2.0以上的最新版本解压后都缺少了lib目录！！！
-  而lib目录里面有一个spark-assembly...hadoop.jar包对于能够成功运行scala project非常重要！我之前就一直被困在这里，明明命令行运行都已经成功了，但在eclipse中就一直不行了，终于，我忍不住了，
-  自己实在找不到办法了，就去请教了jingda，才得知要选择**1.6.2版本以下才有lib目录**。最后，我终于配置成功了。   
-  
- ![](img/2016-10-05-0.jpg)    
+　 - 下载spark压缩包，进入链接https://spark.apache.org/downloads.html，当前spark最新的版本是2.1.0，但目前请不要下载2.0以上的新版本！！！因为spark2.0以上的最新版本解压后都缺少了lib目录！！！ 而lib目录里面有一个spark-assembly...hadoop.jar包对于能够成功运行scala project非常重要！我之前就一直被困在这里，明明命令行运行都已经成功了，但在eclipse中就一直不行了，终于，自己实在找不到办法了，就去请教了jingda，才得知要选择**1.6.2版本以下才有lib目录**。最后，终于配置成功了。   
+
+![](img/2016-10-05-0.jpg)    
  
  - 下载带Scala-SDK的eclipse，配置好spark、scala环境之后就可以直接运行scala project了，不用再去安装其他插件，因此我推荐下载带Scala SDK版eclipse，解压到相应目录就可以使用了。          
  
- ![](img/2016-10-05-1.jpg)    
+![](img/2016-10-05-1.jpg)    
 
 ### 配置环境变量
 　　配置环境变量,编辑/etc/profile,执行以下命令     
 　　sudo gedit /etc/profile
        在文件最下方增加（注意版本）：
-          #Seeting JDK JDK环境变量
-            export JAVA_HOME=/opt/jdk1.8.0_101
-            export JRE_HOME=${JAVA_HOME}/jre
-            export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib
-            export PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin:$PATH 
-          #Seeting Scala Scala环境变量
-            export SCALA_HOME=/opt/scala-2.11.8
-            export PATH=${SCALA_HOME}/bin:$PATH
-          #setting Spark Spark环境变量
-            export SPARK_HOME=/opt/spark-hadoop/
-          #PythonPath 将Spark中的pySpark模块增加的Python环境中
-            export PYTHONPATH=/opt/spark-hadoop/python
+       ```  
+          #Seeting JDK JDK环境变量    
+            export JAVA_HOME=/opt/jdk1.8.0_101   
+            export JRE_HOME=${JAVA_HOME}/jre        
+            export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib               
+            export PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin:$PATH               
+          #Seeting Scala Scala环境变量       
+            export SCALA_HOME=/opt/scala-2.11.8                
+            export PATH=${SCALA_HOME}/bin:$PATH          
+          #setting Spark Spark环境变量      
+            export SPARK_HOME=/opt/spark-hadoop/                
+          #PythonPath 将Spark中的pySpark模块增加的Python环境中        
+            export PYTHONPATH=/opt/spark-hadoop/python         
+            ```   
 　　保存文件， 重启电脑，使/etc/profile永久生效，临时生效，打开命令窗口，执行 source /etc/profile  在当前窗口生效.
 
-### 测试
-      测试安装结果,打开命令窗口，切换到Spark根目录 cd /opt/spark-hadoop    
-     
-      sudo ./bin/spark-shell,打开Scala到Spark的连接窗口                
-      
-      ![](img/2016-10-05-01.jpg)    
-       ![](img/2016-10-05-02.jpg)    
-        ![](img/2016-10-05-03.jpg)   
+### 测试  
+测试安装结果,打开命令窗口，切换到Spark根目录 `cd /opt/spark-hadoop`    
+打开Scala到Spark的连接窗口  `sudo ./bin/spark-shell`              
+![](img/2016-10-05-01.jpg)    
+![](img/2016-10-05-02.jpg)    
+![](img/2016-10-05-03.jpg)   
         
-这里我们可以通过word count这个例子来感受下Spark任务的执行过程。启动spark-shell后，会打开Scala命令行，然后按照以下步骤输入脚本：
+这里我们可以通过word count这个例子来感受下Spark任务的执行过程。启动spark-shell后，会打开Scala命令行，然后按照以下步骤输入脚本：    
 
 步骤1   输入val lines = sc.textFile("./README.md", 2)，执行结果如图     
 ![](img/2016-10-05-a.jpg)     
 步骤2   输入val words = lines.flatMap(line => line.split(" "))，执行结果             
- ![](img/2016-10-05-b.jpg)           
+![](img/2016-10-05-b.jpg)           
 步骤3   输入val ones = words.map(w => (w,1))，执行结果                            
- ![](img/2016-10-05-c.jpg)            
+![](img/2016-10-05-c.jpg)            
 步骤4   输入val counts = ones.reduceByKey(_ + _)，执行结果     
 ![](img/2016-10-05-d.jpg)             
 步骤5   输入counts.foreach(println)，任务执行过程如图，输出结果          
