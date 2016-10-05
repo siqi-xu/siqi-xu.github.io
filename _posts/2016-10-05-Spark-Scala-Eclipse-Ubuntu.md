@@ -41,17 +41,28 @@ Spark是由scala开发，目前提供java, python的接口.
 　　`sudo gedit /etc/profile`
        在文件最下方增加（注意版本）：
        ```  
-          #Seeting JDK JDK环境变量    
+          #Seeting JDK JDK环境变量  
+          
             export JAVA_HOME=/opt/jdk1.8.0_101   
+            
             export JRE_HOME=${JAVA_HOME}/jre        
-            export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib               
-            export PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin:$PATH               
+            
+            export CLASSPATH=.:${JAVA_HOME}/lib:${JRE_HOME}/lib          
+            
+            export PATH=${JAVA_HOME}/bin:${JRE_HOME}/bin:$PATH            
+            
           #Seeting Scala Scala环境变量       
+          
             export SCALA_HOME=/opt/scala-2.11.8                
+            
             export PATH=${SCALA_HOME}/bin:$PATH          
+            
           #setting Spark Spark环境变量      
+          
             export SPARK_HOME=/opt/spark-hadoop/                
+            
           #PythonPath 将Spark中的pySpark模块增加的Python环境中        
+          
             export PYTHONPATH=/opt/spark-hadoop/python         
             ```   
 　　保存文件， 重启电脑，使/etc/profile永久生效，临时生效，打开命令窗口，执行 `source /etc/profile`  在当前窗口生效.
