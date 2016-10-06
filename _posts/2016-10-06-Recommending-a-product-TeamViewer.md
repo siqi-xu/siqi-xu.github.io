@@ -35,7 +35,7 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 - 输入对方ID，点“远程支持”，再点“连接至伙伴”   
 
-![](2016-10-06-teamviewerlink.jpg)    
+![](img/2016-10-06-teamviewerlink.jpg)    
 
 - 输入对方提供的密码   
 
@@ -43,7 +43,7 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 - 成功连接至远程的电脑     
 
-![](2016-10-06-teamviewersuccess.jpg)    
+![](img/2016-10-06-teamviewersuccess.jpg)    
 
 - 这是无法连接时的提示。原因很多
 
