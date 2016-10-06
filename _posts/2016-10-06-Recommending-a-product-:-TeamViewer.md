@@ -42,6 +42,8 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 ![](img/2016-10-06-teamviewerlinkfail.jpg)   
 
+### Reference  
+[http://www.duote.com/tech/5/12849_3.html#contentbody](http://www.duote.com/tech/5/12849_3.html#contentbody)  
 
 
 
