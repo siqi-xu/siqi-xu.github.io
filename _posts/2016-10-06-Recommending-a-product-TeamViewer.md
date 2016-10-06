@@ -2,7 +2,7 @@
 title: "Recommending a product: TeamViewer"
 layout: post
 date: 2016-10-06
-permalink : /post/Recommending-a-product-:-TeamViewer
+permalink : /post/Recommending-a-product-TeamViewer
 tag:
 - TeamViewer
 - Recommendation
