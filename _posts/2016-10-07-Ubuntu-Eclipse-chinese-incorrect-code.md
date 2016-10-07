@@ -14,18 +14,22 @@ blog: true
     
     
 首先要修改/var/lib/locales/supported.d这个文件夹的权限，否则不能修改该文件夹下的local文件，使用如下命令 `sudo chmod -R 777 /var/lib/locales/supported.d`   
-修改/var/lib/locales/supported.d/local文件: `gedit /var/lib/locales/supported.d/local`,在文件中添加     
+修改/var/lib/locales/supported.d/local文件: `gedit /var/lib/locales/supported.d/local`,在文件中添加   
+
 ```  
 zh_CN.GBK GBK   
 
 zh_CN.GB2312 GB2312    
-```  
+```     
 
-`sudo dpkg-reconfigure --force locales`,然后在输出的结果中会出现   
+输入`sudo dpkg-reconfigure --force locales`,然后在输出的结果中会出现    
 
+```
 zh_CN.GB2312 done    
 
 zh_CN.GBK done   
+```   
+
 如下所示：    
 ![](img/2016-10-07-local.jpg)   
 
@@ -36,3 +40,5 @@ zh_CN.GBK done
 首先选择eclipse菜单栏中的Windows->Preferences, 然后选择General下面的Workspace， Text file encoding下选择Other GBK，如果没有GBK的选项， 没关系， 直接输入GBK三个字母， Apply， GBK编码的中文， 已经不是乱码了。   
 ![](img/2016-10-07-xiugaichenggong.png)
 
+### Reference   
+[http://www.linuxidc.com/Linux/2011-12/50056.htm](http://www.linuxidc.com/Linux/2011-12/50056.htm)
