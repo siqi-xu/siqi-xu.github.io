@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu, Eclipse: chinese incorrect code"
 layout: post
-date: 2016-10-03
+date: 2016-10-07
 permalink : /post/Ubuntu-Eclipse-chinese-incorrect-code
 tag:
 - Ubuntu
