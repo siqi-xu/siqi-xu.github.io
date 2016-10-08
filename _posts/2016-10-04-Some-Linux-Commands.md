@@ -37,10 +37,39 @@ blog: true
 
 `sudo rm -r 文件或目录`         
 
-#### 修改ReadOnly文件j目录下所有文件的可读可写可执行的权限   
+### 修改文件权限   
 
-`sudo chmod -R 777 文件夹名`
+- 添加权限   `sudo chmod 对象 + 操作 文件或目录`  
+如：`sudo chmod a+w test`   
 
+- 删除权限   `sudo chmod 对象 - 操作 文件或目录`  
+如：`sudo chmod go-rw test.txt`   
+
+对象：   
+u 代表所有者（user）   
+
+g 代表所有者所在的组群（group）    
+
+o 代表其他人，但不是u和g （other）    
+
+a 代表全部的人，也就是包括u，g和o     
+
+操作：        
+r 表示文件可以被读（read）  
+
+w 表示文件可以被写（write）           
+
+x 表示文件可以被执行（如果它是程序的话）                  
+
+#### 修改ReadOnly文件目录下所有文件的可读可写可执行的权限   
+
+`sudo chmod -R 777 文件夹名`     
+
+#### 
+
+## Reference   
+[http://www.111cn.net/sys/linux/43880.htm](http://www.111cn.net/sys/linux/43880.htm)    
+[http://www.cppblog.com/deercoder/articles/110129.html](http://www.cppblog.com/deercoder/articles/110129.html)  
 
 
 
