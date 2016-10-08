@@ -54,7 +54,8 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 说好的补充来了【2016-10-08】  
 
-### 文件传输    
+### 文件传输     
+
 点击Files & Extras，然后点击 open file transfer     
 
 ![](img/2016-10-08-Teamviewertransfer.png)    
@@ -62,6 +63,21 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 选择好要传输的文件，点击send  
 
 ![](img/2016-10-08-Teamviewersend.png)    
+
+### 设置开机自启，固定密码，实现无人值守访问   
+
+在TeamViewer主界面上点击“Extras”--选项，可以进行各种设置，这里只说实现固定密码设置  
+
+![](img/2016-10-08-Teamviewerextras.png)  
+
+如果需要远程操作自己的电脑（当然自己不在电脑旁边），可以把TeamViewer设置为开机启动，并且设置固定密码，这样只要电脑开机，就可以随时随地远程操作（当然密码要注意安全）  
+
+在这里勾选“Start TeamViewer with system”，就会弹出密码框，输入你自定义的个人密码，确定，重启之后，设置生效。
+![](img/2016-10-08-TeamviewerStart.png)     
+
+![](img/2016-10-08-TeamviewerPSD.png)  
+
+这样，以后我随时随地都可以远程控制两台电脑啦啦啦（可爱.jpg）
 
 
 
