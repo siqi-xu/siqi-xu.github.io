@@ -15,7 +15,11 @@ blog: true
 
 #### 将tgz文件解压到指定目录  
 
-`sudo tar zxvf 文件名.tgz -C 指定目录`    
+`sudo tar zxvf 文件名.tgz -C 指定目录`   
+
+#### 解压windows下常用的zip压缩文件包    
+
+`sudo unzip 文件名.zip`       
 
 #### 创建目录  
 
@@ -33,7 +37,9 @@ blog: true
 
 `sudo rm -r 文件或目录`         
 
+#### 修改ReadOnly文件j目录下所有文件的可读可写可执行的权限   
 
+`sudo chmod -R 777 文件夹名`
 
 
 
