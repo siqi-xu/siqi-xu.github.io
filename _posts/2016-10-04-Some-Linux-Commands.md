@@ -39,13 +39,16 @@ blog: true
 
 ### 修改文件权限   
 
-- 添加权限   `sudo chmod 对象 + 操作 文件或目录`  
-如：`sudo chmod a+w test`   
+- 添加权限   `sudo chmod 对象 + 操作 文件或目录`     
 
-- 删除权限   `sudo chmod 对象 - 操作 文件或目录`  
-如：`sudo chmod go-rw test.txt`   
+如：`sudo chmod a+w test`     
+   
+- 删除权限   `sudo chmod 对象 - 操作 文件或目录`      
 
-对象：   
+如：`sudo chmod go-rw test.txt`         
+
+对象：     
+
 u 代表所有者（user）   
 
 g 代表所有者所在的组群（group）    
@@ -54,7 +57,8 @@ o 代表其他人，但不是u和g （other）
 
 a 代表全部的人，也就是包括u，g和o     
 
-操作：        
+操作：      
+
 r 表示文件可以被读（read）  
 
 w 表示文件可以被写（write）           
