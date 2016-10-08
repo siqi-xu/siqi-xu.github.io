@@ -52,6 +52,16 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 ### Reference  
 [http://www.duote.com/tech/5/12849_3.html#contentbody](http://www.duote.com/tech/5/12849_3.html#contentbody)  
 
+说好的补充来了【2016-10-08】  
+
+### 文件传输    
+点击Files & Extras，然后点击 open file transfer     
+
+![](img/2016-10-08-Teamviewertransfer.png)    
+
+选择好要传输的文件，点击send  
+
+![](img/2016-10-08-Teamviewersend.png)    
 
 
 
