@@ -49,10 +49,10 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 ![](img/2016-10-06-teamviewerlinkfail.jpg)   
 
-### Reference  
+#### Reference  
 [http://www.duote.com/tech/5/12849_3.html#contentbody](http://www.duote.com/tech/5/12849_3.html#contentbody)  
 
-说好的补充来了【2016-10-08】  
+##说好的补充来了【2016-10-08】  
 
 ### 文件传输     
 
@@ -72,7 +72,8 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 如果需要远程操作自己的电脑（当然自己不在电脑旁边），可以把TeamViewer设置为开机启动，并且设置固定密码，这样只要电脑开机，就可以随时随地远程操作（当然密码要注意安全）  
 
-在这里勾选“Start TeamViewer with system”，就会弹出密码框，输入你自定义的个人密码，确定，重启之后，设置生效。
+在这里勾选“Start TeamViewer with system”，就会弹出密码框，输入你自定义的个人密码，确定，重启之后，设置生效。      
+
 ![](img/2016-10-08-TeamviewerStart.png)     
 
 ![](img/2016-10-08-TeamviewerPSD.png)  
