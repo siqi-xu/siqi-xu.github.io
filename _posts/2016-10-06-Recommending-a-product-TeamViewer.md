@@ -80,7 +80,8 @@ TeamViewer作为一款远程控制软件，他的功能远远超于其他同类�
 
 这样，以后我随时随地都可以远程控制两台电脑啦啦啦（可爱.jpg）
 
-
+### Reference  
+[http://blog.csdn.net/iknewit/article/details/7654694](http://blog.csdn.net/iknewit/article/details/7654694)
 
 
 
