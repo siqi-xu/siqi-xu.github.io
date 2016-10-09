@@ -59,7 +59,7 @@ blog: true
 
 URL 填写上面获取到的 HTTP 地址，User 和 Password 填写你的github帐号和密码，完成后点击next进入下一步   
 
-![](img/2016-10-09-uri.png)    
+![](img/2016-10-09-uri.png)
 
 Source ref 和 Destination ref 均选择 master 即可，点击后面的 Add Spec, 点击Finish。其中注意**Force Update**，
 我尝试不选中，点击Finish后Github上没有push我的工程上去，也试过没有勾选也可以push，查资料说这是强制推送，但还没有进一步去深究这个东西。    
