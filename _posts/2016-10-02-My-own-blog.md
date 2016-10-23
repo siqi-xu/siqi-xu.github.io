@@ -1,5 +1,5 @@
 ---
-title: "Set up my own blog on Github, Ubuntu Kylin 14.04"
+title: "在Github, Ubuntu Kylin 14.04建立自己的个人博客"
 layout: post
 date: 2016-10-02
 permalink : /post/My-own-blog
